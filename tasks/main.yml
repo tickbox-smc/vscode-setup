@@ -1,0 +1,16 @@
+---
+- name: Create VSCode directory if it does not exist
+  ansible.builtin.file:
+    path: "{{ansible_env.HOME}}/Library/Application Support/Code/User"
+    state: directory
+    mode: '0644'
+
+- name: Deploy vscode settings.json
+  copy:
+    src: "settings.json"
+    dest: "{{ansible_env.HOME}}/Library/Application Support/Code/User/settings.json"
+    backup: true
+
+- name: Installing vscode extensions
+  shell: "/usr/local/bin/code --install-extension {{item}}"
+  with_items: "{{vscode_extensions}}"
