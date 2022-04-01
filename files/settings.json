@@ -1,43 +1,30 @@
 {
-    "diffEditor.ignoreTrimWhitespace": false,
-  
-    "editor.minimap.enabled": false,
-    "editor.insertSpaces": true,
-    "editor.renderWhitespace": "all",
-    "editor.tabSize": 2,
-  
-    "files.autoSave": "onWindowChange",
-    "files.trimTrailingWhitespace": true,
-  
-    "git.inputValidationSubjectLength": 100,
-  
-    "gitlens.blame.avatars": false,
-    "gitlens.hovers.avatars": false,
-    "gitlens.views.branches.avatars": false,
-    "gitlens.views.commits.avatars": false,
-    "gitlens.views.compare.avatars": false,
-    "gitlens.views.compare.location": "gitlens",
-    "gitlens.views.contributors.avatars": false,
-    "gitlens.views.fileHistory.avatars": false,
-    "gitlens.views.fileHistory.location": "gitlens",
-    "gitlens.views.lineHistory.location": "gitlens",
-    "gitlens.views.remotes.avatars": false,
-    "gitlens.views.repositories.avatars": false,
-    "gitlens.views.repositories.branches.layout": "list",
-    "gitlens.views.repositories.location": "gitlens",
-    "gitlens.views.searchAndCompare.avatars": false,
-    "gitlens.views.search.avatars": false,
-    "gitlens.views.search.location": "gitlens",
-    "gitlens.views.tags.avatars": false,
-  
-    "terminal.integrated.fontFamily": "Source Code Pro for Powerline",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.shell.osx": "/bin/zsh",
-  
-    "window.title": "${rootName}${separator}${activeEditorMedium}${dirty}",
-    "window.zoomLevel": 0.2,
-  
-    "[markdown]": {
+  "aws.samcli.location": "/usr/local/bin/sam",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.minimap.enabled": true,
+  "editor.fontSize": 14,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "MesloLGS NF",
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 500,
+  "python.venvPath": "/Users/chrisfalck/miniconda3/envs",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "redhat.telemetry.enabled": true,
+  "terminal.integrated.scrollback": 10000,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  "window.zoomLevel": 1,
+  "[markdown]": {
       "editor.wordWrap": "on"
-    }
   }
+}
